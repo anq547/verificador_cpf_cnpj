@@ -1,9 +1,7 @@
 # Author: @guizin1
 # License: See LICENSE file
 # Date: 06/05/2021 (mm/dd/yy)
-
-from itertools import count
-
+# Usage: verif_cpf(int) || verif_cnpj(int)
 
 def verif_cpf(cpf):
     lista_numeros = list(str(cpf))
@@ -117,5 +115,3 @@ def verif_cnpj(cnpj):
         return True
     else:
         return False
-
-print(verif_cpf(11249554888))
